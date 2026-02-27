@@ -80,7 +80,7 @@ pip3 install RPi.GPIO Adafruit_DHT smbus2
 python3 main.py
 ```
 ---
-##⚠️ Safety Thresholds (Configurable)
+## ⚠️ Safety Thresholds (Configurable)
 - Temperature threshold
 - Humidity threshold
 - Smoke detection threshold
