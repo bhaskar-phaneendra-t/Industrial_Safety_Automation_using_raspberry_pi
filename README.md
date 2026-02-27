@@ -66,7 +66,7 @@ This system enhances workplace safety, reduces manual monitoring, and enables ea
 - **FC-22** → GPIO Pin  
 - **LCD** → I2C (SDA, SCL)  
 - **Buzzer** → GPIO Output Pin  
----
+
 ---
 ### Installation
 ```bash
@@ -75,19 +75,16 @@ sudo apt install python3-pip
 pip3 install RPi.GPIO Adafruit_DHT smbus2
 ```
 ---
----
 ## Run program
 ``` bash
 python3 main.py
 ```
----
 ---
 ##⚠️ Safety Thresholds (Configurable)
 - Temperature threshold
 - Humidity threshold
 - Smoke detection threshold
 These values can be modified inside the Python script.
----
 ---
 ## 📁 Project Structure
 ```markdown
@@ -100,7 +97,5 @@ Industrial_Safety_Automation/
 └── README.md
 ```
 ---
----
-##👨‍💻 Author
-Bhaskar Phaneendra T
-
+## 👨‍💻 Author
+Bhaskar Phaneendra Tatapudi
